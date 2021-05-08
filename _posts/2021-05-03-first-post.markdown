@@ -43,7 +43,7 @@ categories. This fits in well with the way category theory presented.
 
 Then comes the definition of a natural transformation:
 
-Let C and D be categories, and F, G: C -> D functors. A natural transformation
+Let C and D be categories, and $$F$$, $$G\colon C \to D$$ functors. A natural transformation
 eta from F to G consists, for each object in c, a morphism eta_c such that for
 each morphism phi: c -> c' in C, the square
 
