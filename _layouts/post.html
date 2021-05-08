@@ -5,6 +5,9 @@ layout: default
   window.MathJax = {
     tex: {
       packages: ['base', 'ams']
+      macros: {
+        category: ["\\mathcal{ #1}, 1]
+      }
     },
     loader: {
       load: ['ui/menu', '[tex]/ams']
