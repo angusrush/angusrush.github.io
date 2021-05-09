@@ -52,7 +52,7 @@ but we should have the following rough dictionary.
 |-----------------------------------------------------------------|-------------------------------|
 | category $$\category{C}$$                                       | topological space $$X$$       |
 | functor $$F: \category{C} \to \category{D}$$                    | continuous map $$f: X \to Y$$ |
-| natural transformations $$\eta: F \Rightarrow G$$               | homotopy $$H: f \to g$$       |
+| natural transformations $$\eta: F \Rightarrow G$$               | homotopy $$H: f \sim g$$      |
 
 
 
