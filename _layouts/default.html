@@ -1,4 +1,22 @@
 <!DOCTYPE html>
+
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      packages: ['base', 'ams', 'eucal']
+      macros: {
+        category: ["\\mathcal{ #1}, 1]
+      }
+    },
+    loader: {
+      load: ['ui/menu', '[tex]/ams']
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+                               src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
 <html>
   <head>
     <title>{{ page.title }}</title>
