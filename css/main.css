@@ -53,6 +53,8 @@ ul.posts li {
 table {
   font-size: 1.5em;
   line-height: 1.4em;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
 }
 
