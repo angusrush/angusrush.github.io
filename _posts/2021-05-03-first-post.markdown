@@ -50,9 +50,10 @@ but we should have the following rough dictionary.
 
 | category theory                                                 | topology                      |
 |-----------------------------------------------------------------|-------------------------------|
-| Category $$\category{C}$$                                       | topological space $$X$$       |
-| Functor $$F: \category{C} \to \category{D}$$                    | continuous map $$f: X \to Y$$ |
-| Natural transformations $$\eta: F \Rightarrow G$$               | Homotopy map $$H: f \to g$$   |
+| category $$\category{C}$$                                       | topological space $$X$$       |
+| functor $$F: \category{C} \to \category{D}$$                    | continuous map $$f: X \to Y$$ |
+| natural transformations $$\eta: F \Rightarrow G$$               | homotopy $$H: f \to g$$       |
+
 
 
 
