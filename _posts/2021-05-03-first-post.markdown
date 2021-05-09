@@ -9,11 +9,11 @@ ROUGH DRAFT -- I hope to add some hand-drawn illustrations.
 
 This blog will be dedicated to whatever I feel like writing about on any given
 week. This will likely be some combination of research notes, musings on
-category theory and physics, and even some more far out stuff, like baking or
-cooking. The emphasis will be on quantity over quality---I want to write
-something at least every other week, no matter how small. Any research notes I
-write will probably be incomprehensible to anyone other than me and (if I'm
-having a good day) my advisor.
+category theory (especially basic category theory) and physics, and even some
+more far out stuff, like baking or cooking. The emphasis will be on quantity
+over quality---I want to write something at least every other week, no matter
+how small. Any research notes I write will probably be incomprehensible to
+anyone other than me and (if I'm having a good day) my advisor.
 
 My research is, broadly speaking, about homotopy theory, more specifically
 higher category theory. For tax purposes, that makes me a topologist, although
@@ -32,6 +32,8 @@ categories are simultaneously a generalization of, and a special case of,
 topological spaces.  For me, many things in category theory lose a lot of their
 mystery when viewed this way, and there's a lot to be gained by playing these
 two points of view off each other.
+
+![algebra and geometry]({{ site.url }}/assets/images/algebra_and_geometry.png)
 
 My next blog post will be a concrete example of this: the
 definition of a natural transformation. The first definitions one is confronted
