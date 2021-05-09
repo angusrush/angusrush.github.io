@@ -15,23 +15,26 @@ over quality---I want to write something at least every other week, no matter
 how small. Any research notes I write will probably be incomprehensible to
 anyone other than me and (if I'm having a good day) my advisor.
 
-My research is, broadly speaking, about homotopy theory, more specifically
-higher category theory. For tax purposes, that makes me a topologist, although
-I never formally learned any point-set topology, and my intuition is pretty
-much useless outside of things which are at least as nice as CW complexes. I'm
+Broadly speaking, I'm interested in homotopy theory, especially higher category
+theory. For tax purposes, that makes me a topologist of sorts, although I never
+formally learned any point-set topology, and my intuition is pretty much
+useless outside of things which are at least as nice as CW complexes. I'm
 really more of a category theory fanboy.
 
 Category theory has been fairly fashionable recently, and there is a lot of
 effort going into making it easy to understand and teach. A lot of the current
 teaching methods follow the historical development of category theory, treating
-categories are structured containers for algebraic data: we think of the
-objects in our category as abstracted algebraic gadgets of some sort; sets,
-groups, rings, or whatever; the morphisms are then abstractions of maps between
-them. I think there's a lot to gain by the homotopy-theoretic point of view:
-categories are simultaneously a generalization of, and a special case of,
-topological spaces.  For me, many things in category theory lose a lot of their
-mystery when viewed this way, and there's a lot to be gained by playing these
-two points of view off each other.
+categories are structured containers for algebraic data. Viewed in this way,
+the objects in our category are thought of as abstracted algebraic gadgets of
+some sort; sets, groups, rings, or whatever; the morphisms are then
+abstractions of maps between them.
+
+There's a reason this is the norm, and I would never advocate for doing away
+with it. However, I think there's a lot to gain by the homotopy-theoretic point
+of view: categories are simultaneously a generalization of, and a special case
+of, topological spaces. For me, many things in category theory lose a lot of
+their mystery when viewed this way, and there's a lot to be gained by playing
+these two points of view off each other.
 
 ![algebra and geometry]({{ site.url }}/assets/images/algebra_and_geometry.png){: .center-image }
 
@@ -58,5 +61,4 @@ the following rough dictionary.
 | functor $$F: \category{C} \to \category{D}$$                    | continuous map $$f: X \to Y$$ |
 | natural transformations $$\eta: F \Rightarrow G$$               | homotopy $$H: f \sim g$$      |
 
-Possibly the fundamental idea in homotopy theory is that both category theory and topology are subsumed by higher categories. Categories are higher categories where there are no non-invertible $$n$$-morphisms for $$n > 1$$, and no non-trivial $$n$$-morphisms for $$n > 2$$, and topological spaces are higher categories with no non-invertible $$n$$-morphisms for any $$n$$.
-
+But I'll write more about this next week.
