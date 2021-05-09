@@ -33,7 +33,7 @@ topological spaces.  For me, many things in category theory lose a lot of their
 mystery when viewed this way, and there's a lot to be gained by playing these
 two points of view off each other.
 
-![algebra and geometry]({{ site.url }}/assets/images/algebra_and_geometry.png)
+![algebra and geometry]({{ site.url }}/assets/images/algebra_and_geometry.png){: width="250" }
 
 My next blog post will be a concrete example of this: the
 definition of a natural transformation. The first definitions one is confronted
