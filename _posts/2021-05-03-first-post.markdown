@@ -44,9 +44,13 @@ in algebra that turn out to be natural transformations. It's even often claimed
 that it gives a formalization of the idea of 'naturality' or 'canonicalness',
 which I think is overselling things a bit.
 
-The definition is much clearer if we think of categories as directed
-topological spaces. I'll be a bit cagy about what I mean by this at the moment,
-but we should have the following rough dictionary.
+The definition is, in my opinion much easier to motivate if we think of
+categories as directed topological spaces, and transport the definition of a homotopy directly from topological spaces to categories.
+
+I'll be a bit cagy about what I mean by this at the moment, but we should have
+the following rough dictionary.
+
+![Natural transformations as homotopies]({{ site.url }} ../assets/images/functors_as_natural_xfos.png){: .center-image }
 
 | category theory                                                 | topology                      |
 |-----------------------------------------------------------------|-------------------------------|
