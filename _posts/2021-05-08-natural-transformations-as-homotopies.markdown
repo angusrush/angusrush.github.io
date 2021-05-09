@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Natural transformations as homotopies"
-date:   2021-05-03 17:33:25 +0200
+date:   2021-05-08 17:33:25 +0200
 categories: category-theory
 ---
 
