@@ -58,5 +58,7 @@ table {
 
 th, td {
   border-bottom: 1px solid #ddd;
+  font-size: 1.5em;
+  line-height: 1.4em;
   text-align: center;
 }
