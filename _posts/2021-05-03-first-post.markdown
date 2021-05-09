@@ -54,9 +54,5 @@ but we should have the following rough dictionary.
 | functor $$F: \category{C} \to \category{D}$$                    | continuous map $$f: X \to Y$$ |
 | natural transformations $$\eta: F \Rightarrow G$$               | homotopy $$H: f \sim g$$      |
 
-
-
-
-
-
+Possibly the fundamental idea in homotopy theory is that both category theory and topology are subsumed by higher categories. Categories are higher categories where there are no non-invertible $$n$$-morphisms for $$n > 1$$, and no non-trivial $$n$$-morphisms for $$n > 2$$, and topological spaces are higher categories with no non-invertible $$n$$-morphisms for any $$n$$.
 
