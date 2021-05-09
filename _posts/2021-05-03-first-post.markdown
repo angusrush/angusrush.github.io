@@ -5,8 +5,6 @@ date:   2021-05-03 17:33:25 +0200
 categories: category-theory
 ---
 
-ROUGH DRAFT -- I hope to add some hand-drawn illustrations.
-
 This blog will be dedicated to whatever I feel like writing about on any given
 week. This will likely be some combination of research notes, musings on
 category theory (especially basic category theory) and physics, and even some
