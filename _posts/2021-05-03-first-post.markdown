@@ -47,10 +47,10 @@ which I think is overselling things a bit.
 The definition is, in my opinion much easier to motivate if we think of
 categories as directed topological spaces, and transport the definition of a homotopy directly from topological spaces to categories.
 
+![Natural transformations as homotopies]({{ site.url }} ../assets/images/functors_as_natural_xfos.png){: .center-image }
+
 I'll be a bit cagy about what I mean by this at the moment, but we should have
 the following rough dictionary.
-
-![Natural transformations as homotopies]({{ site.url }} ../assets/images/functors_as_natural_xfos.png){: .center-image }
 
 | category theory                                                 | topology                      |
 |-----------------------------------------------------------------|-------------------------------|
