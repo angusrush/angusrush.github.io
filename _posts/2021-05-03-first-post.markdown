@@ -35,11 +35,27 @@ two points of view off each other.
 
 ![algebra and geometry]({{ site.url }}/assets/images/algebra_and_geometry.png){: .center-image }
 
-My next blog post will be a concrete example of this: the
-definition of a natural transformation. The first definitions one is confronted
-with when one studies categories are (1) categories themselves, and (2)
-functors between categories. Both of these are easily digestible: anyone who is
-learning about categories presumably wants to know what a category is, so the
-definition of a category motivates itself. The definition of a functor is then
-completely natural: functors are the structure-preserving maps between
-categories. This fits in well with the way category theory presented.
+My next blog post will be a concrete example of this: the definition of a
+natural transformation. This is the first non-trivial definition you see when
+you set out to learn category theory, and it's usually taught in a way that
+seems kind of unfortunate to me. The definition usually isn't motivated in its
+own right; rather, one is given a list of all of the (many!) familiar concepts
+in algebra that turn out to be natural transformations. It's even often claimed
+that it gives a formalization of the idea of 'naturality' or 'canonicalness',
+which I think is overselling things a bit.
+
+The definition is much clearer if we think of categories as directed
+topological spaces. I'll be a bit cagy about what I mean by this at the moment,
+but we should have the following rough dictionary.
+
+| category theory                                                 | topology                      |
+|-----------------------------------------------------------------|-------------------------------|
+| Category $$\category{C}$$                                       | topological space $$X$$       |
+| Functor $$F: \category{C} \to \category{D}$$                    | continuous map $$f: X \to Y$$ |
+| Natural transformations $$\eta: F \Rightarrow G$$               | Homotopy map $$H: f \to g$$   |
+
+
+
+
+
+
