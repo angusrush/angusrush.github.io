@@ -25,7 +25,7 @@ The data of a homotopy $$H$$ from $$f$$ to $$g$$ then looks like this.
 
 If we view the interval $$I$$ as parametrizing some sort of time, then we can view a homotopy as providing a deformation of $$fX$$ into $$gX$$.
 
-![homotopy]({{ site.url }}/assets/images/homotopy.gif}{: .center-image }
+![homotopy]({{ site.url }}/assets/images/homotopy.gif){: .center-image }
 
 The first definitions one is confronted with when one studies categories are
 (1) categories themselves, and (2) functors between categories. Both of these
