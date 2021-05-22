@@ -5,18 +5,25 @@ date:   2021-05-08 17:33:25 +0200
 categories: category-theory
 ---
 
-The first definitions one is confronted
-with when one studies categories are (1) categories themselves, and (2)
-functors between categories. Both of these are easily digestible: anyone who is
-learning about categories presumably wants to know what a category is, so the
-definition of a category motivates itself. The definition of a functor is then
-completely natural: functors are the structure-preserving maps between
-categories. This fits in well with the way category theory presented.
-Then comes the definition of a natural transformation:
+As I wrote last time, I think that category theory has a lot to gain from
+topological thinking. I would now like to make good on my threat to give an
+example: natural transformations, as understood via homotopies.
 
-Let $$\category{C}$$ and $$\category{D}$$ be categories, and $$F$$, $$G\colon C \to D$$ functors. A natural transformation
-eta from F to G consists, for each object in c, a morphism eta_c such that for
-each morphism phi: c -> c' in C, the square
+First, the definition, so that we're all on the same page. Let $\category{C}$
+
+The first definitions one is confronted with when one studies categories are
+(1) categories themselves, and (2) functors between categories. Both of these
+are easily digestible: anyone who is learning about categories presumably wants
+to know what a category is, so the definition of a category motivates itself.
+The definition of a functor is then completely natural: functors are the
+structure-preserving maps between categories. This fits in well with the way
+category theory presented.  Then comes the definition of a natural
+transformation:
+
+Let $$\category{C}$$ and $$\category{D}$$ be categories, and $$F$$, $$G\colon C
+\to D$$ functors. A natural transformation eta from F to G consists, for each
+object in c, a morphism eta_c such that for each morphism phi: c -> c' in C,
+the square
 
 SQUARE
 
