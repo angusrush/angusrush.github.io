@@ -9,11 +9,12 @@ As I wrote last time, I think that category theory has a lot to gain from
 topological thinking. I would now like to make good on my threat to give an
 example: natural transformations, as understood via homotopies.
 
-First, the definition, so that we're all on the same page. Let $$X$$ and $$Y$$
-be topological spaces, and $$f$$, $$g\colon X \to Y$$ maps. Denote by I the
-closed interval $$I = [0, 1]$$. A _homotopy_ from $$f$$ to $$g$$ is a map
-$$H\colon X \times I \to Y$$ such that $$H|_{X \times \{0\}} = f$$ and $$H|_{X
-\times \{1\}} = g$$.
+First, the definition, so that we're all on the same page. 
+
+**Definition.** Let $$X$$ and $$Y$$ be topological spaces, and $$f$$, $$g\colon
+X \to Y$$ maps.  Denote by I the closed interval $$I = [0, 1]$$. A _homotopy_
+from $$f$$ to $$g$$ is a map $$H\colon X \times I \to Y$$ such that $$H|_{X
+\times \{0\}} = f$$ and $$H|_{X \times \{1\}} = g$$.
 
 We can draw $$f$$ and $$g$$, and their images in $$Y$$, like so.
 
@@ -27,21 +28,17 @@ If we view the interval $$I$$ as parametrizing some sort of time, then we can vi
 
 ![homotopy]({{ site.url }}/assets/images/homotopy.gif){: .center-image }
 
-The first definitions one is confronted with when one studies categories are
-(1) categories themselves, and (2) functors between categories. Both of these
-are easily digestible: anyone who is learning about categories presumably wants
-to know what a category is, so the definition of a category motivates itself.
-The definition of a functor is then completely natural: functors are the
-structure-preserving maps between categories. This fits in well with the way
-category theory presented.  Then comes the definition of a natural
-transformation:
+My claim is that we can understand natural transformations in terms of
+homotopies. Again, I'd better give the definition of a natural transformation
+so we're all on the same page.
 
-Let $$\category{C}$$ and $$\category{D}$$ be categories, and $$F$$, $$G\colon C
-\to D$$ functors. A natural transformation eta from F to G consists, for each
-object in c, a morphism eta_c such that for each morphism phi: c -> c' in C,
-the square
+**Definition.** Let $$\category{C}$$ and $$\category{D}$$ be categories, and
+$$F$$, $$G\colon C \to D$$ functors. A natural transformation $$\eta$$ from
+$$F$$ to $$G$$ consists, for each object in $$\category{C}$$, a morphism
+$$\eta_c$$ such that for each morphism $$\phi\colon c \to c'$$ in
+$$\category{C}$$, the square
 
-SQUARE
+![square]({{ site.url }}/assets/images/commuting_square.png}
 
 commutes.
 
