@@ -12,7 +12,7 @@ example: natural transformations, as understood via homotopies.
 First, the definition, so that we're all on the same page. 
 
 **Definition.** Let $$X$$ and $$Y$$ be topological spaces, and $$f$$, $$g\colon
-X \to Y$$ maps.  Denote by I the closed interval $$I = [0, 1]$$. A _homotopy_
+X \to Y$$ maps.  Denote by $$I$$ the closed interval $$I = [0, 1]$$. A _homotopy_
 from $$f$$ to $$g$$ is a map $$H\colon X \times I \to Y$$ such that $$H|_{X
 \times \{0\}} = f$$ and $$H|_{X \times \{1\}} = g$$.
 
@@ -38,7 +38,7 @@ $$F$$ to $$G$$ consists, for each object in $$\category{C}$$, a morphism
 $$\eta_c$$ such that for each morphism $$\phi\colon c \to c'$$ in
 $$\category{C}$$, the square
 
-![square]({{ site.url }}/assets/images/commuting_square.png}
+![square]({{ site.url }}/assets/images/commuting_square.png}){: .center-image }
 
 commutes.
 
