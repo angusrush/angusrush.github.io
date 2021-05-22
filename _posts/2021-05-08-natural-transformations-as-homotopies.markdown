@@ -38,7 +38,7 @@ $$F$$ to $$G$$ consists, for each object in $$\category{C}$$, a morphism
 $$\eta_c$$ such that for each morphism $$\phi\colon c \to c'$$ in
 $$\category{C}$$, the square
 
-![square]({{ site.url }}/assets/images/commuting_square.png}){: .center-image }
+![square]({{ site.url }}/assets/images/commuting_square.png){: .center-image }
 
 commutes.
 
