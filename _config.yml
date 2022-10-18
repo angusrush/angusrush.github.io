@@ -1,3 +1,5 @@
 name: Angus Rush
+title: Angus Rush
+description: >- Personal website and blog of Angus Rush
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
